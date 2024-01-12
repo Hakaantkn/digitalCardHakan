@@ -5,15 +5,18 @@
     background-color: #333;
     border: 5px solid black;
     border-radius: 10px;
-    margin-left: 650px;
-    margin-top: 200px;
-    position: relative;
+    /* margin-left: 650px; */
+    /* margin-top: 200px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     transition: box-shadow 0.3s ease;
-    transition: transform 0.3s ease;
+
   }
   .container:hover {
     box-shadow: 0 0 30px;
-    transform: scale(1.1);
+
   }
   
   .bilgiler {
